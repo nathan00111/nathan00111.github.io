@@ -1,0 +1,36 @@
+body {
+    background-color: #2a2a2a;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center; /* Center all content */
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+/* ===== CANUCKS ANIMATION ===== */
+.canucks-text {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0;
+    display: inline-block; /* Ensures animation works properly */
+    animation: canucks-animation 2s infinite;
+}
+
+@keyframes canucks-animation {
+    0% {
+        color: #001F5C;
+        transform: translateX(20px) scale(1); /* Start shifted RIGHT */
+    }
+    50% {
+        color: #008752;
+        transform: translateX(-20px) scale(1.1); /* Move LEFT and scale */
+        text-shadow: 0 0 10px rgba(0, 135, 82, 0.5);
+    }
+    100% {
+        color: #001F5C;
+        transform: translateX(20px) scale(1); /* Return to RIGHT */
+    }
+}
