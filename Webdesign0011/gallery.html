@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        .gallery-container {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        
+        .gallery-image {
+            max-width: 100%;
+            height: auto;
+            max-height: 500px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .navigation {
+            margin-top: 20px;
+        }
+        
+        .nav-button {
+            background-color: #4a6ea9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        .nav-button:hover {
+            background-color: #345286;
+        }
+        
+        .image-counter {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+    <link rel="stylesheet" href="gallerystyle.css">
+</head>
+<body>
+    
+    <h1>Photo Gallery</h1>
+    
+    <div class="gallery-container">
+        <img id="currentImage" class="gallery-image" src="" alt="Gallery image">
+    </div>
+    
+    <div class="navigation">
+        <button id="prevButton" class="nav-button">← Previous</button>
+        <button id="nextButton" class="nav-button">Next →</button>
+    </div>
+    
+    <div class="image-counter">
+        <span id="currentIndex">1</span> / <span id="totalImages">0</span>
+    </div>
+
+    <script src="java_script.js"></script>
+</body>
+</html>

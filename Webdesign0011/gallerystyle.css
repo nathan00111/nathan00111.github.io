@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #333333; /* Dark gray background */
+    color: #ffffff; /* White text for better contrast on dark background */
+}
+
+h1 {
+    color: #337df5; /* Blue color for the Photo Gallery title */
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-container {
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #222222; /* Slightly darker container background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.gallery-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Enhanced shadow for contrast */
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+.nav-button {
+    background-color: #4a6ea9; /* Match heading color */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.nav-button:hover {
+    background-color: #5f83bd; /* Lighter blue on hover */
+    transform: scale(1.05);
+}
+
+.image-counter {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #cccccc; /* Light gray text for counter */
+}
