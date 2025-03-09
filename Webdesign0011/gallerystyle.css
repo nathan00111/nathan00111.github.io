@@ -30,7 +30,11 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Enhanced shadow for contrast */
 }
-
+#message {
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold; /* Optional: Make the text bold */
+    color: #f3cece; /* Optional: Change the text color */
+}
 .navigation {
     margin-top: 20px;
 }

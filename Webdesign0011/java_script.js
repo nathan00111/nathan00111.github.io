@@ -24,13 +24,26 @@ function displayCurrentImage() {
   
     currentImageElement.src = imagesFolder + images[currentImageIndex];
     
-   
     currentIndexElement.textContent = currentImageIndex + 1;
     totalImagesElement.textContent = totalImages;
+
+    if (currentImageIndex === 0) {
+        document.getElementById("message").innerText = "Steam Clock Gastown!";
+    } else if (currentImageIndex === 1) {
+        document.getElementById("message").innerText = "Hotel Europe at Gastown!";
+    } else if (currentImageIndex === 2) {
+        document.getElementById("message").innerText = "Science World at False Creek!";
+    } else if (currentImageIndex === 3) {
+        document.getElementById("message").innerText = "Water street with Vancouver Lookout in the middle!";
+    }else {
+        document.getElementById("message").innerText = "West Vancouver Lighthouse!";
+    }
+    
 }
 
 
 function nextImage() {
+   
     currentImageIndex = (currentImageIndex + 1) % totalImages;
     displayCurrentImage();
 }
