@@ -8,20 +8,6 @@ body {
     margin: 0;
 }
 
-/* Author Info Styles */
-.author-info {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    text-align: left;
-    font-size: 14px;
-    color: white;
-}
-
-.author-info p {
-    margin: 5px 0; /* Add spacing between author name and date */
-}
-
 /* Menu Bar Styles */
 .menu-bar {
     background-color: #333; /* Dark background */
@@ -69,10 +55,23 @@ body {
 .blog-post h1 {
     font-size: 36px; /* Large heading */
     color: #4CAF50; /* Green color */
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reduce margin below the title */
     text-align: center; /* Center the heading */
 }
 
+/* Author Info Styles */
+.author-info {
+    text-align: center; /* Center the author name and date */
+    margin-bottom: 20px; /* Add space below the author info */
+    font-size: 16px; /* Slightly larger font size */
+    color: #ccc; /* Light gray color */
+}
+
+.author-info p {
+    margin: 5px 0; /* Add spacing between author name and date */
+}
+
+/* Blog Post Content Styles */
 .blog-post h2 {
     font-size: 24px; /* Medium subheading */
     color: #4CAF50; /* Green color */
