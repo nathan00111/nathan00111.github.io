@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facts About Vancouver</title>
+    <link rel="stylesheet" href="FAVstyle.css">
+</head>
+<body>
+    <!-- Author Name and Date at Top Left -->
+    
+
+    <!-- Menu Bar -->
+    <div class="menu-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Vancouver Photos</a></li>
+            <li><a href="FactsAboutVancouver.html">Facts About Vancouver</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div class="author-info">
+        <p>By Nathan0011</p>
+        <p id="current-date"></p>
+    </div>
+    <!-- Blog Post Content -->
+    <div class="blog-post">
+        <h1>Unfamous but Interesting Facts About Vancouver</h1>
+        <p>Vancouver is known for its stunning mountains, ocean views, and vibrant city life. But there are some lesser-known facts about this beautiful city that might surprise you. Here are a few:</p>
+
+        <h2>1. Vancouver Has a Secret Beach</h2>
+        <p>Yes, you read that right! Vancouver has a hidden gem called <strong>Secret Beach</strong>. Located in the Kitsilano neighborhood, this small, secluded beach is a favorite among locals who want to escape the crowds. It’s the perfect spot for a quiet sunset or a peaceful picnic.</p>
+
+        <h2>2. The City Was Almost Named "Gastown"</h2>
+        <p>Before it became Vancouver, the city was a small settlement called <strong>Gastown</strong>, named after a talkative saloon owner named "Gassy" Jack Deighton. While the name "Vancouver" was eventually chosen, the historic Gastown district still retains its old-world charm and is a popular tourist spot.</p>
+
+        <h2>3. Vancouver Has Its Own "Little Mountain"</h2>
+        <p>Most people know about Grouse Mountain and Cypress Mountain, but did you know Vancouver has its own <strong>Little Mountain</strong>? Located in Queen Elizabeth Park, this hill is the highest point in Vancouver and offers stunning panoramic views of the city and the North Shore Mountains.</p>
+
+        <h2>4. The Stanley Park Seawall Was Built by Unemployed Men During the Great Depression</h2>
+        <p>The iconic Stanley Park Seawall, which stretches 9 kilometers around the park, was built as a relief project during the Great Depression. It provided jobs for unemployed men and has since become one of Vancouver’s most beloved landmarks.</p>
+
+        <h2>5. Vancouver Is Home to the World's First Flying Saucer Landing Pad</h2>
+        <p>In 1967, the town of St. Paul, Alberta, built the world's first UFO landing pad. But did you know Vancouver has its own flying saucer landing pad? Located at the <strong>H.R. MacMillan Space Centre</strong>, this quirky feature is a nod to Vancouver’s love for all things space-related.</p>
+
+        <p>Vancouver is full of surprises, and these are just a few of the many interesting facts about the city. Next time you visit, keep an eye out for these hidden gems!</p>
+    </div>
+
+    <!-- JavaScript to Display Today's Date -->
+    <script>
+        const dateElement = document.getElementById('current-date');
+        const today = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.textContent = today.toLocaleDateString('en-US', options);
+    </script>
+</body>
+</html>

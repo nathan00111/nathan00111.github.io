@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Gallery</title>
     <style>
+        
         body {
+            
             font-family: Arial, sans-serif;
             max-width: 1000px;
             margin: 0 auto;
@@ -61,12 +63,20 @@
     <link rel="stylesheet" href="gallerystyle.css">
 </head>
 <body>
-    
+    <div class="menu-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Vancouver Photos</a></li>
+            <li><a href="FactsAboutVancouver.html">Facts About Vancouver</a></li>
+            <li><a href="About.html"></a>About</li>
+        </ul>
+    </div>
     <h1>Photo Gallery</h1>
     <p>Iconic Places in Vancouver</p>
     <div class="gallery-container">
         <img id="currentImage" class="gallery-image" src="" alt="Gallery image">
     </div>
+    <p>No Copyright Infrigement all Images are used with artist permission</p>
     <p id="message"></p>
     <div class="navigation">
         <button id="prevButton" class="nav-button">← Previous</button>
@@ -78,7 +88,7 @@
     </div>
 
     <script src="java_script.js"></script>
-    <a href=index.html>Back to main page</a>
+   
 
 </body>
 </html>

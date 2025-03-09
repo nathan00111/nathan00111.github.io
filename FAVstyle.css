@@ -1,0 +1,87 @@
+/* General Body Styles */
+body {
+    background-color: #2a2a2a; /* Dark background */
+    color: white; /* White text */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 20px; /* Add some padding */
+    text-align: center; /* Center all content */
+    margin: 0;
+}
+
+/* Author Info Styles */
+.author-info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+}
+
+.author-info p {
+    margin: 5px 0; /* Add spacing between author name and date */
+}
+
+/* Menu Bar Styles */
+.menu-bar {
+    background-color: #333; /* Dark background */
+    padding: 10px 0; /* Add some padding */
+    margin-bottom: 20px; /* Space below the menu bar */
+}
+
+.menu-bar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the menu items */
+}
+
+.menu-bar ul li {
+    display: inline; /* Display menu items horizontally */
+    margin: 0 15px; /* Add space between menu items */
+}
+
+.menu-bar ul li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Increase font size */
+    padding: 10px 20px; /* Add padding to make it clickable */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.menu-bar ul li a:hover {
+    background-color: #575757; /* Change background on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Blog Post Styles */
+.blog-post {
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the content */
+    padding: 20px;
+    background-color: #444; /* Darker background for the post */
+    color: white; /* White text */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    text-align: left; /* Left-align text inside the blog post */
+}
+
+.blog-post h1 {
+    font-size: 36px; /* Large heading */
+    color: #4CAF50; /* Green color */
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+}
+
+.blog-post h2 {
+    font-size: 24px; /* Medium subheading */
+    color: #4CAF50; /* Green color */
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 18px; /* Comfortable reading size */
+    line-height: 1.6; /* Improve readability */
+    margin-bottom: 20px;
+}
